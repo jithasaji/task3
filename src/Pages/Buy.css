@@ -1,0 +1,32 @@
+.card-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-content Button {
+    margin-right: 20px;
+    width: 100%;
+}
+
+.price-tag {
+    display: flex;
+    align-items: center;
+}
+
+.buy-title {
+    text-align: center;
+    margin-top: 50px;
+    color: goldenrod;
+    font-size: 50px;
+}
